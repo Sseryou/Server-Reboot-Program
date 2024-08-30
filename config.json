@@ -1,0 +1,19 @@
+{
+    "RconHost": "your.server.ip",
+    "RconPort": 25575,
+    "RconPassword": "your_secure_password",
+    "ServerDirectory": "C:\\Users\\admin\\Desktop\\Forge Server",
+    "MemoryThresholdMB": 1024,
+    "ServerStartTimeoutSeconds": 300,
+    "JcmdPath": "C:\\Program Files\\Eclipse Adoptium\\jdk-21.0.4.7-hotspot\\bin\\jcmd.exe",
+    "ShutdownMessage": "서버가 1분 후 종료됩니다.",
+    "ShutdownDelaySeconds": 60,
+    "RestartDelaySeconds": 5,
+    "MemoryUsageThresholdPercent": 80,
+    "MemoryMonitoringIntervalSeconds": 10,
+    "MemorySampleSize": 6,
+    "ServerStartCommand": "cmd.exe /C run.bat auto",  
+    "ServerProcessName": "java.exe", 
+    "ServerCommandLineFilter": "minecraft", 
+    "ServerStopCommand": "stop" 
+}
