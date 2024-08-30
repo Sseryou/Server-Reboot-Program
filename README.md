@@ -44,4 +44,3 @@
 ## 추가 정보
 
 - `config.json` 설정에 대한 자세한 내용은 `config_description.txt` 파일을 참조하십시오.
-- 프로그램의 작동과 관련된 문제나 질문이 있다면 [GitHub Issues](https://github.com/your-repository/issues)에 보고해 주세요.
