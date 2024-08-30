@@ -1,0 +1,34 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <PublishSingleFile>true</PublishSingleFile>
+    <RuntimeIdentifier>win-x64</RuntimeIdentifier>
+    <!-- 타겟 플랫폼을 x64로 지정 -->
+    <SelfContained>true</SelfContained>
+    <!-- 실행 파일에 .NET 런타임 포함 -->
+  </PropertyGroup>
+
+  <ItemGroup>
+    <COMReference Include="{215d64d2-031c-33c7-96e3-61794cd1ee61}">
+      <WrapperTool>tlbimp</WrapperTool>
+      <VersionMinor>4</VersionMinor>
+      <VersionMajor>2</VersionMajor>
+      <Guid>215d64d2-031c-33c7-96e3-61794cd1ee61</Guid>
+    </COMReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <FrameworkReference Include="Microsoft.WindowsDesktop.App" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CoreRCON" Version="5.4.1" />
+    <PackageReference Include="MinecraftRcon" Version="1.0.1" />
+    <PackageReference Include="RconSharp" Version="2.0.1" />
+    <PackageReference Include="System.Management" Version="8.0.0" />
+  </ItemGroup>
+
+
+</Project>
